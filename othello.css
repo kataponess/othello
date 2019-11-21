@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.outer {
+  width: 100%;
+}
+
+.table {
+  margin: 0 auto;
+  border-spacing: 0;
+  text-align: center;
+  font-size: 200%;
+}
+
+.buttons {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.buttons-inner {
+  display: inline-block;
+  text-align: left;
+}
+
+.item {
+  margin: 10px auto;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.red {
+  animation: color 2s linear infinite;
+}
+@keyframes color {
+  0% {
+    background: #ff0000;
+  }
+  50% {
+    background: #f5a9a9;
+  }
+  100% {
+    background: #ff0000;
+  }
+}
